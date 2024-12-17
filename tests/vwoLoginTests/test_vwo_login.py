@@ -7,12 +7,9 @@ from selenium import webdriver
 from tests.pageObjects.loginPage import LogInPage
 from tests.pageObjects.dashboardPage import DashboardPage
 
-@pytest.fixture()
-def setup():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.get("https://app.vwo.com/")
-    return driver
+
+
+
 
 @allure.epic("VWO Login Test")
 @allure.feature("TC#0 - VWO App Negative Test")
@@ -32,10 +29,9 @@ def test_vwo_login_negative(setup):
 def test_vwo_login_positive(setup):
     driver = setup
     loginPage = LogInPage(driver)
+
     loginPage.login_vwo(username="py4x@testingacademy.com", password="Wingify1234")
     time.sleep(5)
-    dashboard_page =  DashboardPage(driver)
+    dashboard_page = DashboardPage(driver)
     assert "Dashboard" in driver.title
     assert "test aaa" in dashboard_page.user_logged_in_text()
-
-

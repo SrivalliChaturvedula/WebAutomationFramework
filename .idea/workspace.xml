@@ -1,27 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="228d6477-01e8-4dab-8065-cce0253c4244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WebAutomationFramework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Katalon_Tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Katalon_Tests/test_katalon_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/7e68d4ea-4aaf-4967-9c1f-5e6e6c3c2280-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/d31da90f-902a-4c36-bc6a-c0ecc571c791-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/0125b459-8e16-4c8a-bbe3-93a38c1376f5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/3de40dde-964a-4288-995f-7f766e16c977-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/4521cc93-c6b4-4020-a669-829bb9d3c8a8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/a1e42da4-ffae-4c00-a997-84211867cfd2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/a53f46e4-4f11-4ae9-93ed-62684757862a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/df7cc131-f2bd-40c0-a22e-9f59d9683383-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/basetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/test_vwologin_pom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/test_vwo_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/test_vwo_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SrivalliChaturvedula&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SrivalliChaturvedula/WebAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;1f82a735-6258-46ae-b4d9-1c0ea285052b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2peK6lXNKAUY01g3c4rkFIRsPnh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,11 +67,104 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
+    "Python tests.Python tests for test_vwologin_pom.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive.executor": "Run",
+    "Python tests.Python tests for test_vwologin_pom.TestLoginPage.executor": "Run",
+    "Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative.executor": "Run",
+    "Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive">
+    <configuration name="Python tests for test_vwologin_pom.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwologin_pom.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwologin_pom.TestLoginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwologin_pom.TestLoginPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwologin_pom.TestLoginPage.test_vwo_login_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwologin_pom.TestLoginPage.test_vwo_login_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwologin_pom.TestLogin.test_vwo_login_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive" />
+        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLogin" />
+        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative" />
+        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive" />
+        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLoginPage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,6 +182,9 @@
       <updated>1733120927704</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
