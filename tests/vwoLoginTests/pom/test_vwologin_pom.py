@@ -1,28 +1,20 @@
 import time
 import allure
 import pytest
-import selenium
-from selenium import webdriver
-from tests.pageObjects.loginPage import LogInPage
-from tests.pageObjects.dashboardPage import DashboardPage
-from selenium.webdriver.common.by import By
+from tests.vwoLoginTests.pom.pageObjects.loginPage import LogInPage
+from tests.vwoLoginTests.pom.pageObjects.dashboardPage import DashboardPage
 
 
+@pytest.mark.usefixtures("setup")
 class TestLogin:
-
-    def __init__(self):
-        self.password = None
-        self.name = None
-        self.base_url = None
 
     @allure.epic("VWO Login Test")
     @allure.feature("TC#0 - VWO App Negative Test")
-    @pytest.mark.usefixtures("setup")
     @pytest.mark.negative
     def test_vwo_login_negative(self, setup):
-        driver = setup
-        driver.get(self.base_url)
-        loginPage = LogInPage(driver)
+        print(f"Base URL: {self.base_url}")
+        self.driver.get(self.base_url)
+        loginPage = LogInPage(self.driver)
         loginPage.login_vwo(username="test@gmail.com", password="12345")
         time.sleep(10)
         error_message = loginPage.get_error_message_text()
@@ -36,8 +28,7 @@ class TestLogin:
         driver = setup
         driver.get(self.base_url)
         loginPage = LogInPage(driver)
-
-        loginPage.login_vwo(username=self.name, password=self.password)
+        loginPage.login_vwo(username=self.username, password=self.password)
         time.sleep(5)
         dashboard_page = DashboardPage(driver)
         assert "Dashboard" in driver.title

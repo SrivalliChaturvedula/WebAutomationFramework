@@ -1,15 +1,17 @@
 import time
-
 import allure
 import pytest
-import selenium
 from selenium import webdriver
-from tests.pageObjects.loginPage import LogInPage
-from tests.pageObjects.dashboardPage import DashboardPage
+from tests.vwoLoginTests.pom.pageObjects import LogInPage
+from tests.vwoLoginTests.pom.pageObjects.dashboardPage import DashboardPage
 
-
-
-
+@pytest.fixture()
+def setup():
+    driver = webdriver.Chrome()
+    # ChromeOptions
+    driver.maximize_window()
+    driver.get("https://app.vwo.com")
+    return driver
 
 @allure.epic("VWO Login Test")
 @allure.feature("TC#0 - VWO App Negative Test")

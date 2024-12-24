@@ -5,25 +5,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="228d6477-01e8-4dab-8065-cce0253c4244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Katalon_Tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Katalon_Tests/test_katalon_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/7e68d4ea-4aaf-4967-9c1f-5e6e6c3c2280-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/d31da90f-902a-4c36-bc6a-c0ecc571c791-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/0125b459-8e16-4c8a-bbe3-93a38c1376f5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/3de40dde-964a-4288-995f-7f766e16c977-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/4521cc93-c6b4-4020-a669-829bb9d3c8a8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/a1e42da4-ffae-4c00-a997-84211867cfd2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/a53f46e4-4f11-4ae9-93ed-62684757862a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/df7cc131-f2bd-40c0-a22e-9f59d9683383-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/basetest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/test_vwologin_pom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/35ff134d10972d73.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/47f477bedb2065ef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/73ea12d4e05a3262.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/809d1e55324ec920.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/83304856ba4b206f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a51296c31852eb03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/04594208-33c2-4290-a1dc-bc81f4486ee2-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0dd12357-44d8-4308-856f-f2138ae0ce43-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/281b2bde-1324-4e4d-8e8d-d8118e9288eb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/31d0d6a8-b8fb-49ec-b147-20ca38271a33-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/32f0e580-df9e-48ea-8c0e-61d1d1404bac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/44f992dc-d458-468c-a208-1b7d79be7494-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/57f862c7-a1be-49a6-bbd6-433852c29e91-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/622235ff-aa8e-4ab6-a57f-75e925f95fc4-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/75f3fb06-1d69-4ce4-9545-db3ebeb14246-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/760d529c-7526-4fb6-92dd-12fa802de213-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/89b48dfc-3acd-46ab-b8c4-dbbd271f62b6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9195cb11-7a2d-4d1b-be27-24ce5cf538f1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9f4dffa3-8cd3-4562-928e-55ace65c31fa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/be39cda2-0093-4230-bd21-f43f5b647940-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/be90544f-ceef-48be-bda9-75c3b2912f80-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c61d1a29-b758-4eae-9fe9-baab07f5a7ac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d3115c9f-71de-4c94-8de7-a49dcc33fbed-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f734a9f7-e524-4a84-b8b4-ce71ffb266c9-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/allure-results/304ea89d-73b2-4def-8000-3ed3ff43fa9a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/allure-results/7697e4dc-d18b-4eba-87df-159b529b4eb9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/allure-results/a0bacaf1-f603-461b-8a5f-2b1e09e36948-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/allure-results/a11161bf-8082-4cbe-9456-8e6fd9d90ab4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/ddt.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/ddt_vwologin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/google_search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/steps/google_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/steps/test_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/features/steps/test_steps_vwologin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/253444dd-d2d5-4cd6-901a-819256e0589a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/29becb92-848a-419b-962c-d6f3cc574ba9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/418c55af-ebb9-4a2e-964e-c6e75f66a47d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/7c8c3a08-297b-45b5-a11c-c92674003ce5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/allure-results/9c9543f0-e26a-4033-93bd-5b14020a98db-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/05f2647e-427e-41f2-85de-d1f479df7125-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/1d62ba81-0d19-4d2d-82d2-5a49659c861d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/2091c018-cc04-48e3-991e-a3c0c51fb04d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/22d095cb-8d85-496d-9f68-b5dae583e22e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/34f001e5-a677-494b-9f09-094af58d1b1c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/39af028c-9dc9-476d-bfb3-8179291d3efe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/405d2e03-1fcb-420b-9ce2-e5ee3fff570d-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/40652922-930e-40ef-a360-507a0ff887bc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/40d90caa-d983-4d85-9919-94e50341e479-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/45ba349b-6b50-46eb-b5f2-69d02c965f9e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/4b8b158e-fb89-4798-a059-852a948cc360-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/4ee3a2d1-e1c2-4f3b-a460-c741c4199bd5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/6046f92d-ca45-4e5f-a8ad-1ce7354ae387-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/6a6e4fe4-e278-4642-b618-b7faf880ee55-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/75fbd594-6c94-4d12-b70a-c32e08638d43-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/7a972d98-f341-4ebe-a9b8-64f3e87a0f35-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/8cb56c52-18e8-4e8a-a14d-148b6f1d1397-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/d04abc9f-4b75-4b36-a834-ac306b1201b8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/d25ea665-3257-4594-ba37-d1fd99f1fc6a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/d3d87973-ed4f-4f68-a022-3624388cf395-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/d525abc9-f59d-430b-9154-67eda8c01647-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/e2bacbf5-9f9a-4d5c-852e-dc4ae9f5df27-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/allure-results/faa3bab3-75ab-4c9a-9d3d-a18ce0d197f6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/pageObjects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/pageObjects/loginpage_pf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/test_vwo_login_pf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.env" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/dashboardPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/pageObjects/dashboardPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/pageObjects/loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/pom/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/pom/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/pom/test_vwologin_pom.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/pom/test_vwologin_pom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/test_vwo_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vwoLoginTests/test_vwo_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,23 +161,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
-    "Python tests.Python tests for test_vwologin_pom.TestLogin.executor": "Run",
-    "Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive.executor": "Run",
-    "Python tests.Python tests for test_vwologin_pom.TestLoginPage.executor": "Run",
-    "Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative.executor": "Run",
-    "Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwologin_pom.TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwologin_pom.TestLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive">
-    <configuration name="Python tests for test_vwologin_pom.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chatu\PycharmProjects\WebAutomationFramework\tests\vwoLoginTests\pom" />
+      <recent name="C:\Users\Chatu\PycharmProjects\WebAutomationFramework\tests\vwoLoginTests" />
+      <recent name="C:\Users\Chatu\PycharmProjects\WebAutomationFramework\behave\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_negative">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/vwoLoginTests/pom/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,11 +222,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_vwologin_pom.TestLogin&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_vwologin_pom.TestLoginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +237,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_vwologin_pom.TestLoginPage&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_vwologin_pom.TestLogin.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,22 +252,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_vwologin_pom.TestLoginPage.test_vwo_login_negative&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomationFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests/pom" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_vwologin_pom.TestLoginPage.test_vwo_login_positive&quot;" />
+      <option name="_new_target" value="&quot;test_vwologin_pom.TestLogin.test_vwo_login_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -157,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_negative" />
+        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_negative" />
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLogin.test_vwo_login_positive" />
-        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLogin" />
-        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_negative" />
-        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLoginPage.test_vwo_login_positive" />
-        <item itemvalue="Python tests.Python tests for test_vwologin_pom.TestLoginPage" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwologin_pf_positive" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +297,15 @@
       <option name="presentableId" value="Default" />
       <updated>1733120927704</updated>
     </task>
+    <task id="LOCAL-00001" summary="New files added">
+      <option name="closed" value="true" />
+      <created>1734416734057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734416734057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -188,5 +313,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New files added" />
   </component>
 </project>
